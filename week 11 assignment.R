@@ -1,6 +1,6 @@
 #############read data########
 
-my.data<- read.csv("/Users/T480s/Desktop/INHA/course 2021 fall/R Programm/food-price-index-September-2021-index-numbers-csv-tables.csv",header=T, sep=",",dec = ".", fill = TRUE, comment.char = "")
+my.data<- read.csv("/Users/T480s/Desktop/INHA/course 2021 fall/R Programm/food-price-index-September-2021-index-numbers-csv-tables.csv",header=T, sep=",")
 head(my.data)
 
 names(my.data)
